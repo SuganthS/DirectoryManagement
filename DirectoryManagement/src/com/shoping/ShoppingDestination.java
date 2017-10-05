@@ -1,5 +1,7 @@
 package com.shoping;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.Iterator;
@@ -12,7 +14,6 @@ public class ShoppingDestination {
 	Map<Integer, Product> items = new HashMap();
 	Map<Integer, Product> itemsPicked = new HashMap();
 	
-
 	
 	ShoppingDestination(){
 		items.put(1, new Product("Bovonto", 35, 160));
